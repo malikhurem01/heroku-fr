@@ -1,9 +1,0 @@
-.marginClass {
-  margin: 0 160px;
-}
-
-@media (max-width: 600px) {
-  .marginClass {
-    margin: 0 30px;
-  }
-}
