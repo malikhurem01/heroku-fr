@@ -6,7 +6,7 @@
 
 html {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #000;
   font-weight: 400;
 }
@@ -17,20 +17,43 @@ ul {
 a {
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #000;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='number'],
-input[type='password'] {
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
   transition: 0.3s all;
 }
-input[type='text']:focus::placeholder,
-input[type='email']:focus::placeholder,
-input[type='number']:focus::placeholder,
-input[type='password']:focus::placeholder {
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+input[type="number"]:focus::placeholder,
+input[type="password"]:focus::placeholder {
   color: #8367d8;
+  font-weight: 500;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder {
+  padding-left: 9px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+  padding-left: 9px;
+  color: #000;
+  font-size: 1em;
+  font-weight: 500;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  padding-left: 9px;
+  color: #000;
   font-weight: 500;
 }
