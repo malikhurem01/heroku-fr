@@ -1,0 +1,21 @@
+.error_container {
+  width: 50%;
+  margin: 7em auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.error_container h1 {
+  color: #8367d8;
+  font-size: 3em;
+}
+
+.error_container a {
+  text-decoration: none;
+  color: #8367d8;
+  font-size: 1.5em;
+}
+
+.error_container a:hover {
+  color: #785ad1;
+}
