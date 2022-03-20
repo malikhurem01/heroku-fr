@@ -1,0 +1,21 @@
+.marginClass {
+  margin: 0 160px;
+}
+
+@media (max-width: 1400px) {
+  .marginClass {
+    margin: 0 120px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .marginClass {
+    margin: 0 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .marginClass {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.locationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.locationContainer > * {
+  margin-bottom: 20px;
+}
+
+.locationTitle {
+  color: #000;
+  font-weight: 700;
+}
+
+.path_page {
+  color: #8367d8;
+  font-weight: 700;
+}
+
+.path_arrow {
+  margin: 0 1em;
+}
