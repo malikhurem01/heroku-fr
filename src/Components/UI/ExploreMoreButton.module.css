@@ -1,0 +1,24 @@
+.exploreBtn_container {
+  width: 170px;
+  background-color: #8367d8;
+  margin: 2em auto;
+  text-align: center;
+  padding: 15px 24px;
+  transition: 0.2s all;
+}
+
+.exploreBtn_text {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+}
+
+.exploreBtn_container:hover {
+  background-color: #785acf;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.exploreBtn_container:active {
+  transform: translateY(2px);
+}

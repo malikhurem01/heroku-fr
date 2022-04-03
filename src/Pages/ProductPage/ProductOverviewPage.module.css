@@ -1,0 +1,288 @@
+.about_product_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5.3em;
+
+  justify-content: space-between;
+}
+
+.product_container_notification_active {
+  margin-top: 5.3em;
+}
+
+.about_product_pictures_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_product_main_picture img {
+  width: 360px;
+  height: auto;
+  margin-top: 0.5em;
+}
+
+.about_product_pictures_row {
+  display: flex;
+  flex-direction: row;
+  gap: 24.5px;
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+}
+
+.about_product_pictures_row img {
+  width: 71px;
+  height: 97.49px;
+}
+
+.about_product_pictures_row img:hover {
+  cursor: pointer;
+}
+
+.about_product_information {
+  margin-top: 0.5em;
+  width: 50%;
+}
+
+.about_product_main_title {
+  font-size: 32px;
+  line-height: 51px;
+  letter-spacing: 0.84px;
+  color: #252525;
+}
+
+.about_product_starting_price {
+  color: #8367d8;
+  font-weight: 300;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.product_emphasize {
+  color: #8367d8;
+  font-weight: 700;
+}
+
+.about_product_auction {
+  border: 1.5px solid #e9e8e8;
+  padding: 1em 2em;
+  width: 45%;
+}
+
+.about_product_auction p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #252525;
+  line-height: 2em;
+}
+
+.bid_input {
+  border: 1px #e3e3e3 solid;
+  width: 57%;
+  padding: 1em 0;
+  font-family: 1rem;
+  margin-right: 35px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.bid_input::placeholder {
+  line-height: 19.2px;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 5px;
+  transition: 0.2s all;
+}
+
+.product_bid_container {
+  margin-top: 4em;
+}
+
+.btn {
+  display: inline-block;
+  border: 2.8px solid #8367d8;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.2s;
+  background-color: #fff;
+  padding: 10px 0;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-transform: uppercase;
+  position: relative;
+  top: 2.6px;
+  color: #252525;
+  width: 200px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  background-color: #b0a0df;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.arrow {
+  display: inline-block;
+  width: 5.33px;
+  height: 10px;
+  margin-left: 17px;
+  color: #8367d8;
+  animation-name: arrowPath;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrowPath {
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.products_tabs {
+  margin-top: 3em;
+  display: flex;
+  flex: row;
+  height: 4.2vh;
+  width: 100%;
+}
+
+.products_tabs p {
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.products_tabs p :not(.products_tab_active) {
+  color: #000;
+  font-weight: 300;
+}
+
+.products_tabs p:hover {
+  cursor: pointer;
+  color: #8367d8;
+}
+
+.products_tab_active {
+  font-weight: 400;
+  color: #8367d8;
+  border-bottom: 3px solid #8367d8;
+}
+
+.products_tab_active p {
+  color: #8367d8;
+}
+
+.products_tabs p:first-child {
+  margin-right: 2em;
+}
+
+.products_container {
+  border-top: 1px #d8d8d8 solid;
+  padding-top: 2.2em;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.paragraph {
+  line-height: 24px;
+  color: #9b9b9b;
+}
+
+.bid_notification_container {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  height: 59px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  transform: translateX(-160px);
+  overflow: hidden;
+}
+
+.bid_notification_container p {
+  margin-top: 20px;
+  transform: translateX(160px);
+}
+
+.bid_notification_error {
+  background: #f6f2e5;
+}
+
+.bid_notification_error p {
+  color: #ab944e;
+}
+
+.bid_notification_success {
+  background: #f0f3ee;
+}
+
+.bid_notification_success p {
+  color: #417505;
+}
+
+.bid_notification_outbid {
+  background: #f1effa;
+}
+
+.bid_notification_outbid p {
+  color: #8367d8;
+}
+
+.bid_error,
+.bid_high_error {
+  text-align: center;
+  width: 45%;
+  color: #ab944e;
+  font-weight: 700;
+}
+
+.user_owner {
+  margin-top: 2.5em;
+  margin-bottom: 5em;
+  text-align: center;
+  width: 58%;
+  color: #8367d8;
+  font-weight: 700;
+}
+
+.bid_error,
+.user_owner {
+  transform: translateY(-1em);
+}
+
+.bid_high_error,
+.user_owner {
+  transform: translateY(1em);
+}
+
+.bid_error p,
+.bid_high_error p,
+.user_owner p {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.bid_error img,
+.bid_high_error img,
+.user_owner img {
+  transform: translateY(2.5px);
+  width: 1.2em;
+  height: 1.2em;
+}

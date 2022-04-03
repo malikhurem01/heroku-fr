@@ -1,0 +1,20 @@
+.backdrop_container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.modal {
+  text-align: center;
+  width: 25%;
+  margin: 27vh auto;
+  padding: 45px 75px;
+  z-index: 11;
+}
