@@ -1,0 +1,66 @@
+.backdrop_container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.925);
+  overflow: hidden;
+}
+
+.modal {
+  position: relative;
+  text-align: center;
+  width: 25%;
+  margin: 27vh auto;
+  padding: 55px 75px;
+  padding-bottom: 20px;
+  z-index: 11;
+  background-color: rgb(245, 238, 238);
+  border-radius: 3px;
+}
+
+.success {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  padding: 0.8em;
+  transform: translateX(-50%);
+  color: #fff;
+  background-color: #8367d8;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 1.1em;
+}
+
+.modal_message {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 1.1em;
+  font-size: 1.05em;
+}
+
+.modal_exit_button {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 1.8em;
+  font-size: 0.9em;
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 1.9px solid #8367d8;
+  text-transform: uppercase;
+}
+
+.modal_exit_button:hover {
+  cursor: pointer;
+  background-color: #8367d8;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
