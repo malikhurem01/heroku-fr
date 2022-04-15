@@ -50,6 +50,10 @@ const Shop = () => {
   const handleExploreMore = () => {
     const offsetValue = filters.offset + 1;
     const updatedConfigState = {
+      categories: filters.categories,
+      subcategories: filters.subcategories,
+      priceMin: filters.priceMin,
+      priceMax: filters.priceMax,
       offset: offsetValue,
       sort: filters.sort,
       direction: filters.direction,
@@ -216,6 +220,8 @@ const Shop = () => {
         //CHECK IF THERE ARE ANY PRODUCTS, IF NO, HIDE THE "EXPLORE MORE" BUTTON
         if (productsPage.length === 0) {
           setAllProductsFetched(true);
+          isDataLoadingHandler(false);
+          return;
         } else {
           setAllProductsFetched(false);
         }
