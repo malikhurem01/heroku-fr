@@ -1,0 +1,66 @@
+.list {
+  display: block;
+  list-style-type: disc;
+  width: 556px;
+  margin: 5em auto;
+  line-height: 28px;
+}
+
+.list h1 {
+  margin: 1.2em 0;
+}
+
+.list h2 {
+  margin: 1em 0;
+}
+
+.paragraph {
+  margin-bottom: 2em;
+}
+
+h1 {
+  margin-bottom: 32px;
+}
+
+.paragraph,
+li {
+  color: #9b9b9b;
+}
+
+.aboutUs {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.container {
+  line-height: 28px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.text {
+  width: 50%;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: right;
+}
+
+.pictures > img {
+  width: 548px;
+  text-align: right;
+}
+
+.pictures .bottomRow img {
+  margin-top: 15px;
+  width: 262px;
+}
+
+.pictures .bottomRow img:nth-child(2) {
+  margin-left: 24px;
+}

@@ -1,0 +1,36 @@
+.noUi-connect,
+.progress-bar {
+  background-color: #8367d8;
+}
+
+.noUi-handle {
+  height: 10px;
+  width: 20px;
+  top: -5px;
+  right: 15px;
+  border-radius: 50%;
+}
+
+.noUi-horizontal .noUi-handle:nth-child(1) {
+  width: 18px;
+  height: 18px;
+  top: -6px;
+  right: -9px;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+  display: none;
+  content: "";
+}
+
+.noUi-target {
+  position: relative;
+  width: 80%;
+  height: 7px;
+  margin: 1.6em auto;
+  margin-bottom: 1em;
+  background: #fafafa;
+  border-radius: 4px;
+  border: none;
+}
